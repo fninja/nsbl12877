@@ -1,0 +1,5 @@
+---
+- name: load vars
+  include_vars: "{{ item }}"
+  with_items:
+    - ../../myrole/vars/{{ region }}.yml

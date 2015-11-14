@@ -1,0 +1,5 @@
+- name: france
+  hosts: localhost
+  connection: local
+  roles:
+    - { role: "myrole", region: "france" }

@@ -1,0 +1,5 @@
+---
+- name: debug myvar
+  debug:
+    var: myvar
+  when: myvar is defined
